@@ -21039,7 +21039,7 @@
         "x-cached-seconds": 30
       }
     },
-    "/v3/characters/{character_id}/skills/": {
+    "/v4/characters/{character_id}/skills/": {
       "get": {
         "description": "List all trained skills for the given character\n\n---\n\nThis route is cached for up to 120 seconds",
         "operationId": "get_characters_character_id_skills",

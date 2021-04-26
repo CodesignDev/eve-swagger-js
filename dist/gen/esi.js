@@ -605,7 +605,7 @@ exports.ROUTE_MAP = {
     get_characters_character_id_search: { url: "/v2/characters/{character_id}/search/", method: "GET" },
     get_search: { url: "/v2/search/", method: "GET" },
     get_characters_character_id_skillqueue: { url: "/v2/characters/{character_id}/skillqueue/", method: "GET" },
-    get_characters_character_id_skills: { url: "/v3/characters/{character_id}/skills/", method: "GET" },
+    get_characters_character_id_skills: { url: "/v4/characters/{character_id}/skills/", method: "GET" },
     get_sovereignty_campaigns: { url: "/v1/sovereignty/campaigns/", method: "GET" },
     get_sovereignty_map: { url: "/v1/sovereignty/map/", method: "GET" },
     get_sovereignty_structures: { url: "/v1/sovereignty/structures/", method: "GET" },
