@@ -773,7 +773,7 @@ export namespace esi {
             owner_id?: number;
         }
         /**
-         * This is the response type for the route, [`GET /v4/characters/{character_id}/`](https://esi.evetech.net//#!/Character/get_characters_character_id).
+         * This is the response type for the route, [`GET /v5/characters/{character_id}/`](https://esi.evetech.net//#!/Character/get_characters_character_id).
          */
         export interface Character {
             /**
@@ -2519,7 +2519,7 @@ export interface Parameters {
         body: esi.character.calendar.Response;
     };
     /**
-     * The type of this member specifies the path, query, and body parameters for the route: [`GET /v4/characters/{character_id}/`](https://esi.evetech.net//#!/Character/get_characters_character_id). If the type does not have a `query`, `path`, or `body` property, then the route does not define parameters for that source type.
+     * The type of this member specifies the path, query, and body parameters for the route: [`GET /v5/characters/{character_id}/`](https://esi.evetech.net//#!/Character/get_characters_character_id). If the type does not have a `query`, `path`, or `body` property, then the route does not define parameters for that source type.
      */
     get_characters_character_id: {
         path: {
@@ -3596,7 +3596,7 @@ export interface Responses {
      */
     put_characters_character_id_calendar_event_id: undefined;
     /**
-     * The type of this member is the response type of for the route: [`GET /v4/characters/{character_id}/`](https://esi.evetech.net//#!/Character/get_characters_character_id).
+     * The type of this member is the response type of for the route: [`GET /v5/characters/{character_id}/`](https://esi.evetech.net//#!/Character/get_characters_character_id).
      */
     get_characters_character_id: esi.character.Character;
     /**
@@ -4132,7 +4132,7 @@ export const ROUTE_MAP: RouteMap = {
     get_characters_character_id_calendar: { url: "/v1/characters/{character_id}/calendar/", method: "GET" },
     get_characters_character_id_calendar_event_id: { url: "/v3/characters/{character_id}/calendar/{event_id}/", method: "GET" },
     put_characters_character_id_calendar_event_id: { url: "/v3/characters/{character_id}/calendar/{event_id}/", method: "PUT" },
-    get_characters_character_id: { url: "/v4/characters/{character_id}/", method: "GET" },
+    get_characters_character_id: { url: "/v5/characters/{character_id}/", method: "GET" },
     get_characters_character_id_agents_research: { url: "/v1/characters/{character_id}/agents_research/", method: "GET" },
     get_characters_character_id_blueprints: { url: "/v1/characters/{character_id}/blueprints/", method: "GET" },
     get_characters_character_id_chat_channels: { url: "/v1/characters/{character_id}/chat_channels/", method: "GET" },

@@ -21358,7 +21358,7 @@
         "x-cached-seconds": 3600
       }
     },
-    "/v4/characters/{character_id}/": {
+    "/v5/characters/{character_id}/": {
       "get": {
         "description": "Public information about a character\n\n---\n\nThis route is cached for up to 3600 seconds",
         "operationId": "get_characters_character_id",

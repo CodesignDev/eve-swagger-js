@@ -515,7 +515,7 @@ exports.ROUTE_MAP = {
     get_characters_character_id_calendar: { url: "/v1/characters/{character_id}/calendar/", method: "GET" },
     get_characters_character_id_calendar_event_id: { url: "/v3/characters/{character_id}/calendar/{event_id}/", method: "GET" },
     put_characters_character_id_calendar_event_id: { url: "/v3/characters/{character_id}/calendar/{event_id}/", method: "PUT" },
-    get_characters_character_id: { url: "/v4/characters/{character_id}/", method: "GET" },
+    get_characters_character_id: { url: "/v5/characters/{character_id}/", method: "GET" },
     get_characters_character_id_agents_research: { url: "/v1/characters/{character_id}/agents_research/", method: "GET" },
     get_characters_character_id_blueprints: { url: "/v1/characters/{character_id}/blueprints/", method: "GET" },
     get_characters_character_id_chat_channels: { url: "/v1/characters/{character_id}/chat_channels/", method: "GET" },
