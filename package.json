@@ -11,7 +11,7 @@
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "scripts": {
-    "prepublish": "npm-run-all clean build test",
+    "disabled-prepublish": "npm-run-all clean build test",
     "test": "jest",
     "clean": "rm -rf ./dist; rm -rf ./node_modules/.jest-cache",
     "build": "npm-run-all build:util gen:esi build:src",
