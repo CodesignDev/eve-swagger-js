@@ -238,7 +238,7 @@ class APIImpl {
             "constellation" /* CONSTELLATION */,
             "corporation" /* CORPORATION */,
             "faction" /* FACTION */,
-            "inventorytype" /* INVENTORYTYPE */,
+            "inventory_type" /* INVENTORY_TYPE */,
             "region" /* REGION */,
             "solarsystem" /* SOLARSYSTEM */,
             "station" /* STATION */,

@@ -1079,7 +1079,7 @@ export declare namespace esi {
             constellation?: number[];
             corporation?: number[];
             faction?: number[];
-            inventorytype?: number[];
+            inventory_type?: number[];
             region?: number[];
             solarsystem?: number[];
             station?: number[];
@@ -1093,7 +1093,7 @@ export declare namespace esi {
             CONSTELLATION = "constellation",
             CORPORATION = "corporation",
             FACTION = "faction",
-            INVENTORYTYPE = "inventorytype",
+            INVENTORY_TYPE = "inventory_type",
             REGION = "region",
             SOLARSYSTEM = "solarsystem",
             STATION = "station",
@@ -2304,7 +2304,7 @@ export declare namespace esi {
         constellation?: number[];
         corporation?: number[];
         faction?: number[];
-        inventorytype?: number[];
+        inventory_type?: number[];
         region?: number[];
         solarsystem?: number[];
         station?: number[];
@@ -2317,7 +2317,7 @@ export declare namespace esi {
         CONSTELLATION = "constellation",
         CORPORATION = "corporation",
         FACTION = "faction",
-        INVENTORYTYPE = "inventorytype",
+        INVENTORY_TYPE = "inventory_type",
         REGION = "region",
         SOLARSYSTEM = "solarsystem",
         STATION = "station",

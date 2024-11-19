@@ -127,7 +127,7 @@ test('Types.names', () => {
 test('Types.search', () => {
   agent.__expectRoute('get_search', {
     'search': 'search text',
-    'categories': ['inventorytype'],
+    'categories': ['inventory_type'],
     'strict': false
   });
   return api.types.search('search text').then(result => {
@@ -139,7 +139,7 @@ test('Types.search', () => {
 test('Types.search.strict', () => {
   agent.__expectRoute('get_search', {
     'search': 'search text',
-    'categories': ['inventorytype'],
+    'categories': ['inventory_type'],
     'strict': true
   });
   return api.types.search.strict('search text').then(result => {

@@ -13517,7 +13517,7 @@
                 "constellation",
                 "corporation",
                 "faction",
-                "inventorytype",
+                "inventory_type",
                 "region",
                 "solarsystem",
                 "station",
@@ -13668,16 +13668,16 @@
                   "title": "get_search_faction",
                   "type": "array"
                 },
-                "inventorytype": {
-                  "description": "inventorytype array",
+                "inventory_type": {
+                  "description": "inventory_type array",
                   "items": {
-                    "description": "inventorytype integer",
+                    "description": "inventory_type integer",
                     "format": "int32",
-                    "title": "get_search_inventorytype",
+                    "title": "get_search_inventory_type",
                     "type": "integer"
                   },
                   "maxItems": 500,
-                  "title": "get_search_inventorytype",
+                  "title": "get_search_inventory_type",
                   "type": "array"
                 },
                 "region": {
@@ -18928,7 +18928,7 @@
                 "constellation",
                 "corporation",
                 "faction",
-                "inventorytype",
+                "inventory_type",
                 "region",
                 "solarsystem",
                 "station",
@@ -19086,16 +19086,16 @@
                   "title": "get_characters_character_id_search_faction",
                   "type": "array"
                 },
-                "inventorytype": {
-                  "description": "inventorytype array",
+                "inventory_type": {
+                  "description": "inventory_type array",
                   "items": {
-                    "description": "inventorytype integer",
+                    "description": "inventory_type integer",
                     "format": "int32",
-                    "title": "get_characters_character_id_search_inventorytype",
+                    "title": "get_characters_character_id_search_inventory_type",
                     "type": "integer"
                   },
                   "maxItems": 500,
-                  "title": "get_characters_character_id_search_inventorytype",
+                  "title": "get_characters_character_id_search_inventory_type",
                   "type": "array"
                 },
                 "region": {

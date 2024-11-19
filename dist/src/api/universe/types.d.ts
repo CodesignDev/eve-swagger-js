@@ -159,10 +159,10 @@ export interface Types {
      */
     marketGroups: MarketGroups;
     /**
-     * A Search module instance configured to search over the `'inventorytype'`
+     * A Search module instance configured to search over the `'inventory_type'`
      * type.
      *
-     * @esi_route get_search [inventorytype]
+     * @esi_route get_search [inventory_type]
      * @esi_example esi.types.search('text')
      */
     search: Search;

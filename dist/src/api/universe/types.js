@@ -45,7 +45,7 @@ function makeTypes(agent) {
             return new GroupImpl(agent, id);
         }
     };
-    types.search = search_1.makeDefaultSearch(agent, "inventorytype" /* INVENTORYTYPE */);
+    types.search = search_1.makeDefaultSearch(agent, "inventory_type" /* INVENTORY_TYPE */);
     types.prices = function () {
         return agent.request('get_markets_prices', undefined);
     };

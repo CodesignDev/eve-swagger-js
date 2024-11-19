@@ -508,7 +508,7 @@ class APIImpl implements API {
       esi.SearchCategory.CONSTELLATION,
       esi.SearchCategory.CORPORATION,
       esi.SearchCategory.FACTION,
-      esi.SearchCategory.INVENTORYTYPE,
+      esi.SearchCategory.INVENTORY_TYPE,
       esi.SearchCategory.REGION,
       esi.SearchCategory.SOLARSYSTEM,
       esi.SearchCategory.STATION,
